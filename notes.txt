@@ -1,5 +1,12 @@
 used to make node project->
 npm in it
 
-type this in package.json
-"type":modue
+type this in package.json because to differentiate is it common js and module js
+"type":module
+
+
+module.exports ❌ is CommonJS
+
+import ... from ❌ is ESM
+
+nodejs_class in hit hub
