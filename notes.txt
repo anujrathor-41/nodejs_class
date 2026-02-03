@@ -1,0 +1,5 @@
+used to make node project->
+npm in it
+
+type this in package.json
+"type":modue
