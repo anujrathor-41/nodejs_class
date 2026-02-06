@@ -5,8 +5,8 @@
 // })
 // console.log("end");
 
-import  add ,{sub} from './add.js';
-import fs from 'fs';
+// import  add ,{sub} from './add.js';
+// import fs from 'fs';
 
 
 // const output=add(5,10);
@@ -21,6 +21,20 @@ import fs from 'fs';
 //     console.log("data",data);
 // })
 
-import os from 'os';
 
-console.log(os.platform());
+
+// os module
+// import os from 'os';
+
+// console.log(os.platform());
+
+// common js 
+const func=require('./add.js');
+
+console.log(func.add(5,10));
+console.log(func.sub(5,10));
+
+
+//using destructuring
+// const {add,sub}=require('./add.js');
+// console.log(add(5,10));
