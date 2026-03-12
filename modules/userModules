@@ -1,0 +1,14 @@
+const users=[
+    {
+        id:1,
+        name:"anuj",
+        email:"anuj@example.com"
+    },
+    {
+        id:2,
+        name:"john",
+        email:"john@example.com"
+    }
+]
+
+module.exports=users;
