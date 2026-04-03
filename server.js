@@ -26,3 +26,5 @@ app.listen(3000,()=>{
 // this will return all the users with only name and age fields. other fields will be excluded.
 
 // db.users.updateOne({isActive:true},{$set:{isActive:false}})  this will update the first document which has isActive true and set it to false.
+
+// db.users.find({isActive:true})
