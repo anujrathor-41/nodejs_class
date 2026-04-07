@@ -28,3 +28,6 @@ app.listen(3000,()=>{
 // db.users.updateOne({isActive:true},{$set:{isActive:false}})  this will update the first document which has isActive true and set it to false.
 
 // db.users.find({isActive:true})
+
+// db.users.find({isActive:false},{skills:{$in:[" javascript"]}})  
+// this will return all the users who have isActive false and have javascript in their skills array. $in operator is used to check if a value is present in an array field.
