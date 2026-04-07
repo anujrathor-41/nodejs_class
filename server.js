@@ -31,3 +31,11 @@ app.listen(3000,()=>{
 
 // db.users.find({isActive:false},{skills:{$in:[" javascript"]}})  
 // this will return all the users who have isActive false and have javascript in their skills array. $in operator is used to check if a value is present in an array field.
+
+
+
+// db.users.updataOne(
+//     {_id:4},
+//     {$set:{"marks.$[ele].score":100}}
+// )
+
