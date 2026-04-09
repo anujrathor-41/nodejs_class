@@ -8,9 +8,27 @@ const userRoutes=require('./routes/userRoutes');
 app.use('/',userRoutes);
 
 
-app.listen(3000,()=>{
-    console.log("server is running on port 3000");
+// app.listen(3000,()=>{
+//     console.log("server is running on port 3000");
+// })
+
+
+
+
+require('dotenv').config();
+//env ke variables ko use kar sakte hai
+// require('./src/db/config');
+require('./db/config');
+
+
+app.use(express.json());
+
+
+
+app.listen(process.env.PORT,()=>{
+    console.log(`server is running on port ${process.env.PORT}`)
 })
+
 
 // $gt
 // $lt
